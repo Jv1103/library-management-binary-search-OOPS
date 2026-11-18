@@ -1,13 +1,3 @@
-/*
- * Library Book Management System
- * OOPS Lab Mini Project (CIC-211)
- *
- * Features : add / display books, search by ID or title,
- *            issue a book (only if available), return a book.
- * Concepts : classes & objects, constructors, encapsulation, vectors,
- *            file handling, strings, exception handling.
- */
-
 #include <algorithm>
 #include <cctype>
 #include <fstream>
@@ -21,9 +11,6 @@
 
 using namespace std;
 
-/* ---------------------------------------------------------------------
- * Book : one library book (data is private -> encapsulation)
- * ------------------------------------------------------------------- */
 class Book {
 private:
     int id;
